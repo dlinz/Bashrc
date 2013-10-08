@@ -103,15 +103,6 @@ fi
 #Some additional functions
 #
 
-watch()
-{
-        if [ $# -ne 1 ] ; then
-                tail -f nohup.out
-        else
-                tail -f $1
-        fi
-}
-
 
 #
 # Csh compatability:
