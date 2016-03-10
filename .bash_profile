@@ -24,3 +24,5 @@ export PATH
 
 
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/local/sbin:/opt/bin:/opt/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Users/admin/.local/bin:/Users/admin/bin
+HOMEBREW_GITHUB_API_TOKEN=6a74a37b33d5df36c8bd9af319b98449bf4d84c0
+export HOMEBREW_GITHUB_API_TOKEN
