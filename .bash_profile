@@ -10,19 +10,16 @@ fi
 
 PATH=/opt/bin:/opt/sbin:$PATH:$HOME/.local/bin:$HOME/bin
 
-export MPD_HOST=chls.selfip.biz
-export CVSROOT=:pserver:anonymous@cvs.fedoraproject.org:/cvs/pkgs
+
 export QA_RPATHS=$[ 0x0001|0x0010 ] 
 export PERL_LOCAL_LIB_ROOT="$PERL_LOCAL_LIB_ROOT:/root/perl5";
 export PERL_MB_OPT="--install_base /root/perl5";
 export PERL_MM_OPT="INSTALL_BASE=/root/perl5";
 export PERL5LIB="/root/perl5/lib/perl5:$PERL5LIB";
-export ZENHOME=/opt/zenoss
 export JAVA_HOME=/usr/java/latest
-set PATH="/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:$PATH"
-export PATH
 
 
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/local/sbin:/opt/bin:/opt/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Users/admin/.local/bin:/Users/admin/bin
+set PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/local/sbin:/opt/bin:/opt/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Applications/Server.app/Contents/ServerRoot/usr/bin:/Applications/Server.app/Contents/ServerRoot/usr/sbin:/Users/admin/.local/bin:/Users/admin/bin
 HOMEBREW_GITHUB_API_TOKEN=6a74a37b33d5df36c8bd9af319b98449bf4d84c0
 export HOMEBREW_GITHUB_API_TOKEN
+export PATH
